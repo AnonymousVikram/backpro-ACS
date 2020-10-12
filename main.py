@@ -60,7 +60,7 @@ def machineLearning(inputVal1, inputVal2, weightVal1, weightVal2, biasVal, predi
                            [biasVal]])
 
     # Next round of Weights and Biases
-    outputVals = weightBias - (0.5 * gradDescCost)
+    outputVals = weightBias - (0.7 * gradDescCost)
 
     return outputVals
 
